@@ -8,6 +8,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -35,6 +39,7 @@
   .dark {
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
+    /* dark mode uchun qolgan ranglarni ham qo'shishingiz mumkin */
   }
   * {
     @apply border-border outline-ring/50;
