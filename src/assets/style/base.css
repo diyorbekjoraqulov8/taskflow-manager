@@ -1,0 +1,7 @@
+@layer menu-icon-style {
+    border: 1px solid red !important;
+    &_button svg:first-child {
+        border: 1px solid red !important;
+        @apply p-2 box-content bg-primary/10;
+    }
+}
